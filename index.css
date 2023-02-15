@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+#main-d {
+    background-image: url("adi-goldstein-B2sNfHkjagM-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 0 0 2px black;
+    padding: 10px 30px;
+    background-color: black;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    text-shadow: 0 0 2px black;
+    padding: 10px 30px;
+    background-color: black;
+}
+
+p {
+    font-size: 20px;
+    text-shadow: 0 0 2px black;
+    padding: 10px 30px;
+    background-color: black;
+}
+
+button {
+    padding: 10px 20px;
+    color: #ffffff;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+#increment-btn {
+    background-color: red;
+}
+
+#save-btn {
+    background-color: blue;
+}
